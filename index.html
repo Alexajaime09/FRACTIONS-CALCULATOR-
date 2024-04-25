@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>convertidor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box-form">
+        <h2>Fractions Calculator</h2>
+        <form action="" id="fractionForm">
+            <div class="wrapper">
+                <input type="number" id="numerator1" placeholder="Num 1" >
+            / <input type="number" id="denominator1"
+            placeholder="Den1">
+            <select name="" id="operation">
+                <option value="add">+</option>
+                <option value="subtract">-</option>
+                <option value="multiply">*</option>
+                <option value="divide">/</option>
+            </select>
+            <input type="number" id="numerator2" placeholder="Num 2" >
+            / <input type="number" id="denominator2" placeholder="Den2">
+            </div>
+            <button type="button" onclick="calculate()">Calculate</button>
+            <p id="error"></p>
+            <p id="result"></p>
+        </form>
+    </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
